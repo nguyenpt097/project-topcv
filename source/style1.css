@@ -794,6 +794,10 @@ img {
     
 }
 
+.btn_grid:hover{
+    background-color: #c0eed4;
+}
+
 .btn1{
     margin-left: 30px;
 }
