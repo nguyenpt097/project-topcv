@@ -859,3 +859,7 @@ img {
     
     background-repeat: no-repeat;
 }
+
+.app_store_topcv .word_app .img_download img{
+    cursor: pointer;
+}
