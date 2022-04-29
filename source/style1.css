@@ -738,10 +738,7 @@ img {
     
 }
 
-.bg_wrapper .kham_pha div{
-    /* display: inline-block; */
-    /* margin-left: 20px; */
-}
+
 
 .grid_topcv .wrapper_topcv .bg_wrapper img{
 
@@ -806,4 +803,59 @@ img {
 }
 
 
+.word_app h2{
+    opacity: 100%;
+    font-size: 31px;
+    font-weight: 700;
+    font-family: inherit;
+    /* font-weight: 500; */
+    line-height: 1.1;
+    
+    
+}
 
+.word_app h3{
+    color: #212f3f;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    margin-top: 40px;
+    opacity: 100%;
+}
+
+.word_app p{
+    font-size: 14px;
+}
+
+.app_store_topcv{
+    display: flex;
+    justify-content: center;
+}
+.word_app .i_check{
+    position: relative;
+    display: block;
+    
+}
+
+.bg_grid{
+    padding-bottom: 30px;
+}
+
+
+.app_store_topcv .word_app .i_check::before{
+    content: "";
+    display: block;
+    position: absolute;
+    /* ti hoc */
+    height: 100%;
+    width: 100%;
+    
+      
+    background-image: url("../img/check.png");
+    /* background-color: #de4637; */
+    background-size: contain;
+    top: 10%;
+    left: 5px;
+    
+    background-repeat: no-repeat;
+}
